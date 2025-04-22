@@ -15,8 +15,8 @@ market_segment_map = {
     'Corporate': 0, 'Online TA': 1, 'Direct': 2, 'Offline TA/TO': 3,
     'Groups': 4, 'Complementary': 5, 'Aviation': 6}
 distribution_channel_map = {'Corporate': 0, 'TA/TO': 1, 'Direct': 2, 'GDS': 3}
-reserved_room_type_map = {k: i for i, k in enumerate(['A', 'C', 'D', 'E', 'G', 'F', 'H', 'B'])}
-assigned_room_type_map = {k: i for i, k in enumerate(['A', 'C', 'D', 'E', 'G', 'F', 'I', 'B', 'H', 'K'])}
+reserved_room_type_map = {k: i for i, k in enumerate(['A', 'B','C', 'D', 'E', 'F','G','H'])}
+assigned_room_type_map = {k: i for i, k in enumerate(['A', 'B','C', 'D', 'E', 'F','G' , 'I','H', 'K'])}
 deposit_type_map = {'No Deposit': 0, 'Refundable': 1, 'Non Refund': 2}
 customer_type_map = {'Transient': 0, 'Contract': 1, 'Transient-Party': 2, 'Group': 3}
 
